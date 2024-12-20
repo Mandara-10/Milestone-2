@@ -16,14 +16,15 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
             <Nav.Link as={Link} to="/cart">Cart</Nav.Link> {/* Cart Page Link */}
+            <Nav.Link as={Link} to="/orders">Orders</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/feedback">Feedback</Nav.Link>
             <NavDropdown title="Account" id="nav-dropdown">
               <NavDropdown.Item as={Link} to="/">Login</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/signup">Signup</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/orders">Orders</Nav.Link>
-            <Nav.Link as={Link} to="/contact">Contact-us</Nav.Link>
-            <Nav.Link as={Link} to="/about">About-us</Nav.Link>
-            <Nav.Link as={Link} to="/feedback">Feedback</Nav.Link>
+         
 
            
             <Button onClick={toggleTheme} variant="outline-secondary">
