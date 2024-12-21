@@ -33,9 +33,9 @@ function HomePage() {
       </section>
 
       {/* Carousel for Promotions */}
-      <Carousel autoPlay interval={3000} infiniteLoop>
+      <Carousel autoPlay true interval={2000} infiniteLoop>
         <div>
-          <img src="https://th.bing.com/th/id/OIP.QgQo4hNgxc-hdqtzD2ZaSAHaEo?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Promo 1" />
+          <img src="https://tse1.mm.bing.net/th?id=OIP.AhrwnV_057QrWfA4hIT9lwHaEK&pid=Api&P=0&h=180" alt="Promo 1" />
           <p className="legend">20% off on all orders!</p>
         </div>
         <div>
